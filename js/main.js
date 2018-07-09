@@ -698,7 +698,6 @@ var timer = function() {
 $(function(){
     UIEvents();
     speech.init();
-    estraiComune();
-    
+    estraiComune();    
 });
 
