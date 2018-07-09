@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Metti l'accento</title>
+<meta charset="UTF-8">
+<meta rel="nofollow">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />
+<link href='font/montserrat_regular_macroman/stylesheet.css' rel='stylesheet' type='text/css'>
+<link href='font/montserrat_bold_macroman/stylesheet.css' rel='stylesheet' type='text/css'>
+<link href='font/fontastic/styles.css' rel='stylesheet' type='text/css'>
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<!--link href='https://www.afal.ch/utils/css/utils.css' rel='stylesheet' type='text/css'-->
+
+<link rel="stylesheet" href="libs\font-awesome-4.3.0\css\font-awesome.min.css">
+
+<link href='css/main.css' rel='stylesheet' type='text/css'>
+
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+
+<div class="bg"></div>
+
+<!-- Main stage -->    
+<div class="stage off">
+    <div class="bg"></div>
+    <div class="border"></div>
+    
+    <!-- Menu -->
+    <div class="intro">
+        <header class="header hide"></header>
+        <div class="body hide-scrollbar">
+            <h1 class="title">Metti l'accento</h1>
+            <a href="#" class="btn-menu hide">
+                <span data-icon="a"></span>
+            </a>
+            <div class="copy txt-c">
+               Sai pronunciare correttamente i nomi dei comuni della Sardegna? <br>
+               Apri Google Chrome, alza il volume del tuo dispositivo e mettiti alla prova!
+                
+                <input type="text" class="nome" placeholder="Inserisci il tuo nome" autofocus></input>
+                <a href="#" class="btn inline gioca">
+                    gioca
+                </a>
+            </div>
+        </div>
+        <footer class="footer"></footer>
+        
+    </div>
+    <!-- /Menu -->
+    
+    
+    <div class="stop hide">
+        <a href="#" class="">interrompi e salva</a>
+    </div>
+    
+    <!-- Game -->
+    <section id="game" class="game">
+        <div class="container">
+            <div class="flex-cont">
+            
+                <div class="score">
+                    <p> <span id="nome">Alessandro</span> - <span class="time"></span></p>
+                    <p>#<span class="estrazione">1</span> - <span class="percent">0%</span></p>                    
+                </div>
+            
+                <div>
+                    <p id="comune" class="flex-item"></p>
+                </div>
+                
+                <div class="help">
+                    <div class="istruzioni">
+                        <i class="fa fa-question-circle"></i> In caso di nomi con più parole, considera solo l'ultima
+</div>
+                    <div class="segnala"><i class="fa fa-exclamation-triangle"></i> Se pensi ci sia un errore nelle risposte, <a href="">segnalamelo!</a></div>                    
+                </div>
+                
+                
+                <!--
+
+                In caso di nomi con più parole, considera solo l'ultima
+
+                <p id="punteggio">
+                    <span id="nome">Alessandro</span> 
+                    <span class="percent">0%</span>
+                    <!--
+                    <span class="giuste">0</span>
+                    su
+                    <span class="totale">0</span>
+                </p>
+                -->
+                
+                
+                
+            </div> 
+        </div>
+    </section>
+    <!-- /Game -->
+
+
+    <!-- Modale -->
+
+    <!-- /Modale -->
+    
+    
+    
+</div>
+<!-- /Main stage --> 
+
+
+
+
+<!--    
+<p id="punteggio hide">
+    <span id="nome">Alessandro</span> 
+    <span class="giuste">0</span>
+    su
+    <span class="totale">0</span>
+</p>
+-->
+
+
+<script src="js/jquery.js"></script>
+<script src="js/firebase.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
